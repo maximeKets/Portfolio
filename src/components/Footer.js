@@ -1,71 +1,71 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import {Container, Row, Col} from "react-bootstrap";
 import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
+    AiFillGithub,
+    AiOutlineTwitter,
+    AiFillInstagram, AiFillMail, AiFillPhone,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import {FaLinkedinIn, FaVoicemail} from "react-icons/fa";
 
 function Footer() {
-  let date = new Date();
-  let year = date.getFullYear();
-  return (
-    <Container fluid className="footer">
-      <Row>
-        <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Soumyajit Behera</h3>
-        </Col>
-        <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} SB</h3>
-        </Col>
-        <Col md="4" className="footer-body">
-          <ul className="footer-icons">
-            <li className="social-icons">
-              <a
-                href="https://github.com/soumyajit4419"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiFillGithub />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://twitter.com/Soumyajit4419"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiOutlineTwitter />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://www.linkedin.com/in/soumyajit4419/"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <FaLinkedinIn />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://www.instagram.com/soumyajit4419"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiFillInstagram />
-              </a>
-            </li>
-          </ul>
-        </Col>
-      </Row>
-    </Container>
-  );
+    let date = new Date();
+    let year = date.getFullYear();
+    return (
+        <Container fluid className="footer">
+            <Row>
+                <Col md="4" className="footer-copywright">
+                    <h3>Réalisé avec 🫶 par Maxime Kets.</h3>
+                </Col>
+                <Col md="4" className="footer-copywright">
+                    <h3>Crédits : Soumyajit Behera</h3>
+                </Col>
+                <Col md="4" className="footer-body">
+                    <ul className="footer-icons">
+                        <li className="social-icons">
+                            <a
+                                href="https://github.com/maximeKets"
+                                style={{color: "white"}}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <AiFillGithub/>
+                            </a>
+                        </li>
+                        <li className="social-icons">
+                            <a
+                                href="https://www.linkedin.com/in/maxime-kets/"
+                                style={{color: "white"}}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <FaLinkedinIn/>
+                            </a>
+                        </li>
+                        <li className="social-icons">
+                            <a
+                                href="mailto:maximekets80@gmail.com"
+                                style={{color: "white"}}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <AiFillMail/>
+                            </a>
+                        </li>
+                        <li className="social-icons">
+                            <a
+                                href="tel:0767882178"
+                                style={{color: "white"}}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <AiFillPhone/>
+                            </a>
+                        </li>
+                    </ul>
+                </Col>
+            </Row>
+        </Container>
+    );
 }
 
 export default Footer;
