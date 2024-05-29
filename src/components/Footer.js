@@ -1,11 +1,9 @@
 import React from "react";
 import {Container, Row, Col} from "react-bootstrap";
 import {
-    AiFillGithub,
-    AiOutlineTwitter,
-    AiFillInstagram, AiFillMail, AiFillPhone,
+    AiFillGithub, AiFillMail, AiFillPhone,
 } from "react-icons/ai";
-import {FaLinkedinIn, FaVoicemail} from "react-icons/fa";
+import {FaLinkedinIn} from "react-icons/fa";
 
 function Footer() {
     let date = new Date();
