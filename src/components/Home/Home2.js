@@ -62,11 +62,11 @@ function Home2() {
                     <Col md={12} className="home-about-social">
                         <h1>TEASER</h1>
                         <p>
-                            Un <span className="purple">message </span> peut tout changer.
+                            Coming <span className="purple">soon </span>
                         </p>
-                        <ul className="flex w-full">
+                        <div className="flex justify-center w-full">
                             <div role="status"
-                                 className="flex items-center justify-center h-56 w-full bg-gray-300 rounded-lg animate-pulse dark:bg-gray-700">
+                                 className="flex items-center justify-center xs:h-40 sm:h-56 md:h-96 aspect-video bg-gray-300 rounded-lg animate-pulse dark:bg-gray-700">
                                 <svg className="w-10 h-10 text-gray-200 dark:text-gray-600" aria-hidden="true"
                                      xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 20">
                                     <path d="M5 5V.13a2.96 2.96 0 0 0-1.293.749L.879 3.707A2.98 2.98 0 0 0 .13 5H5Z"/>
@@ -76,7 +76,7 @@ function Home2() {
                                 <span className="sr-only">Loading...</span>
                             </div>
 
-                        </ul>
+                        </div>
                     </Col>
                 </Row>
 
