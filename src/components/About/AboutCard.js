@@ -30,10 +30,10 @@ function AboutCard() {
                             <ImPointRight/> Python, PHP, JavaScript
                         </li>
                         <li className="about-activity">
-                            <ImPointRight/> Force de proposition
+                            <ImPointRight/> Collecter, agréger et nettoyer des données
                         </li>
                         <li className="about-activity">
-                            <ImPointRight/> Résilience et résolution de problèmes
+                            <ImPointRight/> Force de proposition, résilience et résolution de problèmes
                         </li>
                         <li className="about-activity">
                             <ImPointRight/> Fluent english
