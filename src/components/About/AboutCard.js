@@ -41,10 +41,9 @@ function AboutCard() {
                     </ul>
 
                     <p style={{color: "rgb(155 126 172)"}}>
-                        TODO : change name
-                        "Strive to build things that make a difference!"{" "}
+                        "Se réunir est un début, rester ensemble est un progrès, travailler ensemble est la réussite."{" "}
                     </p>
-                    <footer className="blockquote-footer">Soumyajit</footer>
+                    <footer className="blockquote-footer">Henry Ford</footer>
                 </blockquote>
             </Card.Body>
         </Card>

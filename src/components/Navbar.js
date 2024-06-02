@@ -59,7 +59,7 @@ function NavBar() {
                         <Nav.Item>
                             <Nav.Link
                                 as={Link}
-                                to="/about"
+                                to="/profil"
                                 onClick={() => updateExpanded(false)}
                             >
                                 <AiOutlineUser style={{marginBottom: "2px"}}/> Profil
@@ -69,7 +69,7 @@ function NavBar() {
                         <Nav.Item>
                             <Nav.Link
                                 as={Link}
-                                to="/project"
+                                to="/projets"
                                 onClick={() => updateExpanded(false)}
                             >
                                 <AiOutlineFundProjectionScreen
@@ -82,7 +82,7 @@ function NavBar() {
                         <Nav.Item>
                             <Nav.Link
                                 as={Link}
-                                to="/resume"
+                                to="/cv"
                                 onClick={() => updateExpanded(false)}
                             >
                                 <CgFileDocument style={{marginBottom: "2px"}}/> CV

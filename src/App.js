@@ -32,9 +32,9 @@ function App() {
           <div className="flex-grow">
             <Routes>
               <Route path="/" element={<Home />} />
-              <Route path="/project" element={<Projects />} />
-              <Route path="/about" element={<About />} />
-              <Route path="/resume" element={<Resume />} />
+              <Route path="/projets" element={<Projects />} />
+              <Route path="/profil" element={<About />} />
+              <Route path="/cv" element={<Resume />} />
               <Route path="*" element={<Navigate to="/" />} />
             </Routes>
           </div>
