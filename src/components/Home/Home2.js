@@ -43,7 +43,7 @@ function Home2() {
                             en personne, j'ai lancé une boutique en ligne.
                             <br/>
                             <br/>
-                            C'est à ce moment-là que la 🔥 est née.
+                            C'est à ce moment-là que la flamme est née.
                             Envoûtée par ce domaine alliant   &nbsp;
                             <i>
                                 <b className="purple">perpétuelle évolution,
